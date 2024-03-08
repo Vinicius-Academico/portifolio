@@ -3,12 +3,11 @@ function App() {
   return (
     <>
       <div>
-        <div className="btn"> 
-      teste
-        </div>
+        <button>Olá Daisy</button>
       </div>
     </>
   )
 }
+
 
 export default App
