@@ -1,9 +1,11 @@
+import { NavBar } from "./components/navbar"
+
 function App() {
 
   return (
     <>
       <div>
-        <button>Olá Daisy</button>
+        <NavBar/>
       </div>
     </>
   )
@@ -11,3 +13,4 @@ function App() {
 
 
 export default App
+
