@@ -1,7 +1,6 @@
 import { NavBar } from "./components/navbar"
 
 function App() {
-
   return (
     <>
       <div>
@@ -13,4 +12,3 @@ function App() {
 
 
 export default App
-
