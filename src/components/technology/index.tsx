@@ -34,10 +34,24 @@ export function Technology() {
                             imageUrl="https://storage.googleapis.com/medium-feed.appspot.com/images%2F9353691196%2Fbf0353ae89496-O-que-e-SQL-Server.jpg"
                         />
                     </div>
+
+                    {/* Alinhando o título de Formação ao centro */}
+                    <div className="col-span-1 sm:col-span-2 lg:col-span-4 flex justify-center">
+                        <h1 className="text-5xl font-bold text-center my-8 cl-white">Formação</h1>
+                    </div>
+
+                    {/* Card de Formação ocupando todas as colunas */}
+                    <div className="flex justify-center col-span-1 sm:col-span-2 lg:col-span-4">
+                        <Card
+                            title="Formação"
+                            text="Formado em Análise e Desenvolvimento de Sistemas pelo Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul."
+                            imageUrl="https://www.ifms.edu.br/noticias/elaine-cassiano-e-nomeada-reitora-pelos-proximos-quatro-anos/mat-ifms-2.png"
+                        />
+                    </div>
                 </div>
             </div>
             <br />
-        <br />
+            <br />
         </>
     );
 }
